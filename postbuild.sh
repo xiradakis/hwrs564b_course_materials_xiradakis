@@ -16,6 +16,10 @@ fi
 echo "Creating/updating conda environment..."
 conda env update --file environment.yml --prune
 
+# Initialize conda for bash shell
+echo "Initializing conda for bash shell..."
+conda init
+
 # Activate the conda environment
 echo "Activating conda environment..."
 source $(conda info --base)/etc/profile.d/conda.sh
