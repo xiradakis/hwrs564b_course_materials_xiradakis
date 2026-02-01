@@ -7,6 +7,8 @@ __pycache__/
 modflow/
 pinal_county_model/
 content_weekly/week_05/plots/*.png
+content_weekly/Week2_SteadyState_MF/*
+!content_weekly/Week2_SteadyState_MF/*.ipynb
 uv.lock
 LPR_redux/
 

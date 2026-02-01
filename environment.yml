@@ -34,6 +34,7 @@ dependencies:
 
   # Hydrology/modeling
   - flopy>=3.9.3
+  - pyemu
   - netcdf4>=1.7.2
 
   # Data handling
